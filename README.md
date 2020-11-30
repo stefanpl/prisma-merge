@@ -19,7 +19,7 @@ The base & output file are excluded anyways and dont need to be added to the `ex
 # Install
 With yarn
 ```shell script
-$ yarn global add prisma-merge
+$ yarn add --dev prisma-merge
 ```
 or npx
 ```shell script
