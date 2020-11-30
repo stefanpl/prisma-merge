@@ -2,7 +2,7 @@
   "name": "prisma-merge",
   "description": "Merge prisma schema files",
   "version": "0.1.0",
-  "author": "cudba @cudba",
+  "author": "cudba",
   "bin": {
     "prisma-merge": "./bin/run"
   },
@@ -29,7 +29,7 @@
   ],
   "homepage": "https://github.com/https://github.com/inside-labs/prisma-merge",
   "keywords": [
-    "oclif"
+    "prisma"
   ],
   "license": "MIT",
   "main": "lib/index.js",
