@@ -1,7 +1,7 @@
 {
   "name": "prisma-merge",
   "description": "Merge prisma schema files",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "cudba @cudba",
   "bin": {
     "prisma-merge": "./bin/run"
