@@ -30,6 +30,6 @@ $ npx prisma-merge
   -b, --baseFile                    [default: src/prisma/base.prisma] Base file usually with datasource & generator statement
   -s, --schemaFilePatterns          [default: src/**/*.prisma] Glob to all prisma files to include
   -o, --outputFile                  [default: src/prisma/schema.prisma] Output file
-  -e, --excludedFilePattern         [default: src/**/schema.prisma] Comma separated glob patterns for excluded files (e.g schema.prisma in migrations / generated folder)
+  -e, --excludedFilePattern         [default: src/**/schema.prisma] Glob pattern for excluded files (e.g schema.prisma in migrations / generated folder)
   -h, --help                        show CLI help
 ```
