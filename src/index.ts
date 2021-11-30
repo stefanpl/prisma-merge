@@ -17,7 +17,7 @@ class PrismaMerge extends Command {
   async run() {
     const { flags} = this.parse(PrismaMerge)
     await merge(flags.baseFile, flags.schemaFilePatterns, flags.outputFile, flags.excludedFilePattern)
-    this.log(`Merged prima files into ${flags.outputFile}`)
+    this.log(`Merged prisma files into ${flags.outputFile}`)
   }
 }
 
